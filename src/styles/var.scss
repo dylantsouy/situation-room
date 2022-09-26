@@ -1,0 +1,36 @@
+// Variables
+$primary: #131e52;
+$primary_light: #1a2a5ead;
+$primary_lighter: #334f8c;
+$blue: #285acd;
+$blue_light: #0b92e6;
+$blue_lighter: #76abfe;
+$indigo:#01a0d8;
+$indigo_light:#1ad4f2;
+$indigo_lighter:#88f2ff;
+$background: linear-gradient(90deg, #4a64a5, #142052);
+$purple:#4462d2;
+$purple_light:#7956e6;
+$purple_lighter:#9d8ff5;
+$orange:#fb4e89;
+$orange_light:#df683f;
+$orange_lighter:#ef9f88;
+$gray: #869cce;
+$gray_light: #fafafa;
+$white: #ccc;
+$black: #080042;
+$boxShadow: 0 0 5px #38383b;
+$inner-padding: 30px;
+
+
+
+
+
+// Mixin
+@mixin mainWrapper() {
+    display: flex;
+    flex-direction: column;
+    padding: $inner-padding;
+    height: 100%;
+    width: 100%;
+}

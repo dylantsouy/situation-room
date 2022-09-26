@@ -1,0 +1,10 @@
+{
+    "login": "登入",
+    "account": "帳號",
+    "password": "密碼",
+    "required": "此欄位為必填",
+    "suceessLogin": "登入成功",
+    "failedLogin": "登入發生錯誤",
+    "checkAccount": ",請檢查帳號密碼是否正確",
+    "suceessLogout": "登出成功"
+}

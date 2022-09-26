@@ -1,0 +1,42 @@
+@import '../../styles/var.scss';
+@import '../../styles/media.scss';
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 46px;
+    width: 100%;
+    padding: 8px 16px;
+    & .header-left {
+        display: flex;
+        align-items: center;
+        .header-bar {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            color: $gray;
+            transition: 0.3s;
+            @media screen and ($media-tablet), screen and ($media-phone) {
+                display: none;
+            }
+            &:hover {
+                color: $primary;
+            }
+        }
+        .page {
+            color: $gray;
+            font-size: 18px;
+            margin-left: 10px;
+            margin-top: 2px;
+            letter-spacing: 1px;
+        }
+    }
+    & .header-right {
+        display: flex;
+        align-items: center;
+        svg{
+            margin-left: 10px;
+        }
+    }
+}

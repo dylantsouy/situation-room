@@ -1,0 +1,41 @@
+@import '../../styles/media.scss';
+
+.confirmModal-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	& .container {
+		background-color: #fff;
+		padding: 40px 70px;
+		border-radius: 7.5px;
+
+		& .content {
+			margin-bottom: 25px;
+			font-size: 18px;
+			font-weight: 600;
+			display: flex;
+
+			@media screen and ($media-tablet), screen and ($media-phone) {
+				flex-direction: column;
+
+				&.bottomContent {
+					padding-bottom: 56px;
+				}
+			}
+
+			& > div > div:first-child {
+				margin-bottom: 24px;
+			}
+		}
+
+		& .footer {
+			display: flex;
+			justify-content: center;
+			padding: 8px 16px;
+			button{
+				margin: 0 10px;
+			}
+		}
+	}
+}

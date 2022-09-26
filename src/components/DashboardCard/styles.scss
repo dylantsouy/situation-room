@@ -1,0 +1,48 @@
+@import '../../styles/var.scss';
+
+.dashboard-card {
+    border-radius: 5px;
+    min-height: 200px;
+    color: #fff;
+    &.blue-light {
+        background: linear-gradient(to top right, $indigo, $indigo_light);
+    }
+    &.blue-dark {
+        background: linear-gradient(to top right, $blue, $blue_light);
+    }
+    &.purple-light {
+        background: linear-gradient(to top right, $purple, $purple_light);
+    }
+    &.orange-light {
+        background: linear-gradient(to top right, $orange, $orange_light);
+    }
+    .title{
+        font-size: 18px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.251);
+        padding: 10px 10px 5px;
+    }
+    .bottom{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+    }
+    .chart{
+        width: 100px;
+        height: 100px;
+        background: $gray;
+        opacity: 0.3;
+        border-radius: 100%;
+        margin-right: 10px;
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+        .main-text{
+            font-size: 20px;
+        }
+        .sub-text{
+            font-size: 14px;
+            color: #c3d4f9;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "login": "Login",
+    "account": "Account",
+    "password": "Password",
+    "required": "Field required",
+    "suceessLogin": "Login suceessfully",
+    "failedLogin": "Login failed",
+    "checkAccount": ", please check account or password",
+    "suceessLogout": "Logout suceessfully"
+}
